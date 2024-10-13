@@ -562,29 +562,8 @@ video {
   margin: 1.25rem;
 }
 
-.m-auto {
-  margin: auto;
-}
-
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.block {
-  display: block;
 }
 
 .flex {
@@ -605,10 +584,6 @@ video {
 
 .resize {
   resize: both;
-}
-
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -636,17 +611,8 @@ video {
   text-align: center;
 }
 
-.font-Lato {
-  font-family: Lato, system-ui;
-}
-
 .font-Lora {
   font-family: lora, serif;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .text-3xl {
@@ -654,18 +620,9 @@ video {
   line-height: 2.25rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
-}
-
-.font-light {
-  font-weight: 300;
 }
 
 .font-semibold {
@@ -679,11 +636,6 @@ video {
 .text-mint-cream {
   --tw-text-opacity: 1;
   color: rgb(200 200 200 / var(--tw-text-opacity));
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 /* ---- reset ---- */
@@ -746,8 +698,8 @@ canvas {
 }
 
 .glass {
-  width: 1500px;
-  height: 600px;
+  width: 45vw;
+  height: 30vh;
   background: rgba(0, 0, 0, 0.21);
   backdrop-filter: blur(3.0px);
   -webkit-backdrop-filter: blur(3.5px);
